@@ -7,22 +7,26 @@
   <meta name="vieport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="Agrolab, lemiesze, części do maszyn rolniczych, trapez, podorywka, kverneland">
   <meta name="description" content="Agrolab produkuje części zamienne do maszyn rolniczych. Oferujemy lemiesze premium i standard.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
   <header class="main-header">
     <div class="container">
       <div class="logo">
-        <a href="#"><img src="./img/logo_compressed.png" width="180px" title="Agrolab" alt="" /></a>
+        <a href="./index.html"><img src="./img/logo_compressed.png" width="180px" title="Agrolab" alt="" /></a>
       </div>
+      <button class="hamburger" aria-expanded="false" title="Otwórz/zamknij menu"></button>
       <nav class="main-nav">
-        <ul class="products">
-          <li><a class="product" href="#">link 1</a></li>
-          <li><a class="product" href="#">link 2</a></li>
-          <li><a class="product" href="#">link 3</a></li>
-          <li><a class="product" href="#">link 4</a></li>
+        <ul class="nav__menu">
+          <li><a class="product-premium" href="#">Premium</a></li>
+          <li><a class="product" href="#">Lemiesze</a></li>
+          <li><a class="product" href="#">Inne</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a class="product" href="#">Kontakt</a></li>
         </ul>
       </nav>
+
     </div>
   </header>
   <main>
@@ -35,8 +39,10 @@
       </h1>
     </div>
     <div class="button-wrapper">
-      <button class="allProducts">
+      <button class="allProductsBtn">
+        <a class='allProducts' href="products.html">
           <span>Sprawdź ofertę</span>
+        </a>
       </button>
     </div>
   </section>
@@ -51,15 +57,38 @@
           <h2>Części do maszyn</h2>
       </div>
     </section> -->
-  <section class="offer">
 
-  </section>
   <section class="offer2">
-    
+      <!-- <img class='white_products' src="./img/white_products.jpg" alt="Agrolab" /> -->
+      <div class='white'>
+      </div>
+      <div class='white_products'>
+      <!-- <img class='black_products' src="./img/white_ploza.png" alt="Agrolab" /> -->
+    </div>
+      
   </section>
   </main>
-  <footer>
-    <span>Agrolab</span>
+  <footer id="footer">
+    <h2>Skontaktuj się z nami</h2>
+      <div class='contact-info'>
+        <a class='' href="tel:+48-731-167-214">
+          <img src="./mail-2.svg" alt="Tekst alternatywny">
+        </a>
+        <a class='' href="tel:+48 890 808 214">
+
+        </a>
+        <img src=''>
+        <img class='mail-icon' src="./img/mail.svg" alt="Tekst alternatywny">
+        <!-- <p><a class='phone-num' href="tel:+48-731-167-214">+48 731 167 214</a>
+        <p><a class='phone-num' href= +48 890 808 214>+48 890 808 214</a></p> 
+        <p class='email'>agrolabkonskie@gmail.com</p> -->
+        </div>
+    <!-- <p></p><a class='mail' href="mailto:agrolabkonskie@gmail.com">Napisz do nas</a><p> -->
+    <a class='allegro' href="#">Zapraszamy na naszą stronę na <span class="allegro-icon">allegro</span></a> </br></br></br>
+  <div class="copyright-container">
+    <p class='copyright'>Copyright &copy; 2018 Agrolab</p>
+  </div>
   </footer>
+  <script src="./script.js"></script>
 </body>
 </html>
