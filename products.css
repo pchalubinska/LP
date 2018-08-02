@@ -4,6 +4,8 @@ body {
   box-sizing: border-box;
   font-family: 'Open Sans',Arial,Helvetica,sans-serif;
   color: white;
+  font-size: 16px;
+  background: white;
 }
 /* -------------------------HEADER------------------------------ */
 .main-header {
@@ -156,55 +158,45 @@ a:hover{
   background-position: 0 -130px;
 } */
 /* -----------------------PRODUCTS-lIST-------------------------------- */
-.products-container {
+.offer-container {
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
-  color: black;
-  padding: 35px 0 35px 0;
-  /* background-color: #E3E3E3; */
-  background: white;
-  margin: 30px 15px 0 15px;
-  /* border: 1px solid pink; */
+  margin: 35px 15px 35px 15px;
+  /* border: 3px solid blue; */
 }
-/* .product-containter {
-  position: relative;
-  background: url("./img/lemiesz-silver.png") no-repeat; 
-  background-size: contain;
-  height: 0;
-  padding-top: 50%;
-  border-bottom: 4px solid #1FB61F;
-} */
 .product-wrapper {
-  /* border: 0.5px solid lightgrey; */
-  width: 23.7%;
-  /* margin: 0 15px 15px 0; */
-  /* background: #FFFFFF; */
+  width: 100%;
+  padding: 0 8px 20px 8px;
   /* background: #F8F8F8; */
-  object-fit: contain;
-  /* box-shadow: 0px 13px 28px -20px rgba(135,131,135,0.65); */
-  margin: 20px 8px 20px 8px;
   /* background: #FAFAFA; */
+  /* border: 2px solid lightgreen; */
+}
+.image-fit {
+  object-fit: contain;
+  margin: 0;
+  /* border: 2px solid red; */
+}
+.product-description {
+  /* border: 2px solid yellow; */
 }
 .image {
   width: 100%;
   border-radius: 4px;
 }
-/* .product-wrapper:nth-child(3n) {
-  margin: 0 0 15px 0;
-} */
-@media(max-width: 740px) {
+@media(min-width: 744px) {
   .product-wrapper {
-    width: 100%;
-    margin-bottom: 15px;
+    width: 32%;
+    /* margin-bottom: 15px; */
   }
-  .product-wrapper:nth-child(3n) {
-    margin: 0;
+}
+@media(min-width: 1024px) {
+  .product-wrapper {
+    width: 23.8%;
   }
 }
 .product-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 1.15rem;
   text-align: left;
   padding: 15px 0 5px 0;
   margin: 0;
@@ -220,6 +212,16 @@ a:hover{
   font-weight: 400;
   margin: 0;
 }
+@media (min-width: 768px) {
+  .product-title {
+  font-size: 1.1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .product-title {
+  font-size: 0.95rem;
+  }
+} 
 /* -----------------------FOOTER-------------------------------- */
 footer {
   background: #242424;
