@@ -161,12 +161,13 @@ a:hover{
 .offer-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 35px 15px 35px 15px;
+  margin: 50px 15px 35px 15px;
   /* border: 3px solid blue; */
 }
 .product-wrapper {
+  box-sizing: border-box;
   width: 100%;
-  padding: 0 8px 20px 8px;
+  padding-bottom: 20px;
   /* background: #F8F8F8; */
   /* background: #FAFAFA; */
   /* border: 2px solid lightgreen; */
@@ -176,22 +177,22 @@ a:hover{
   margin: 0;
   /* border: 2px solid red; */
 }
-.product-description {
-  /* border: 2px solid yellow; */
-}
 .image {
   width: 100%;
   border-radius: 4px;
 }
 @media(min-width: 744px) {
   .product-wrapper {
-    width: 32%;
+    width: 33.333%;
+    padding: 0 8px 20px 8px;
     /* margin-bottom: 15px; */
   }
 }
 @media(min-width: 1024px) {
+
   .product-wrapper {
-    width: 23.8%;
+    padding: 0 8px 20px 8px;
+    width: 25%;
   }
 }
 .product-title {
