@@ -151,13 +151,13 @@ a:hover{
 .offer-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 15px 35px 15px;
+  margin: 80px 15px 35px 15px;
   /* border: 3px solid blue; */
 }
 .product-wrapper {
   box-sizing: border-box;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   /* background: #F8F8F8; */
   /* background: #FAFAFA; */
   /* border: 2px solid lightgreen; */
@@ -197,7 +197,7 @@ a:hover{
 .additional-info {
   font-size: 13px;
   text-align: left;
-  line-height: 22px;
+  /* line-height: 22px; */
   color: #8d8d8d;
   font-weight: 400;
   margin: 0;
