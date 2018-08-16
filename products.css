@@ -2,7 +2,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 16px;
@@ -171,6 +170,22 @@ a:hover{
   width: 100%;
   border-radius: 4px;
 }
+.premium-section {
+  height: 95vh;
+  color: white;
+  background-color: #2B2A2A;
+  font-size: 2.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-header {
+  width: 100%;
+  color: #3f3f3f;
+  font-weight: 400px;
+  font-size: 2rem;
+  text-align: center;
+}
 @media(min-width: 744px) {
   .product-wrapper {
     width: 33.333%;
@@ -181,7 +196,7 @@ a:hover{
 @media(min-width: 1024px) {
 
   .product-wrapper {
-    padding: 0 8px 40px 8px;
+    padding: 40px 8px 40px 8px;
     width: 25%;
   }
 }
