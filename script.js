@@ -3,6 +3,6 @@ var menu = document.querySelector('.main-nav');
 
 btn.addEventListener('click', () => {
   console.log("clicked");
-  menu.classList.toggle('main-nav');
+  menu.classList.toggle('main-nav__open');
   btn.classList.toggle('open');
 })
