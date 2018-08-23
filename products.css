@@ -34,7 +34,7 @@ body {
   display: none;
 }
 .logo {
-  padding: 0.6vh 5vw 0 4.5vw;
+  padding: 0.6vh 4.5vw 0 9vw;
 }
 .logo > a {
   cursor: pointer;
