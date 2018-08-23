@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 body {
@@ -54,7 +54,7 @@ a:hover{
   transition: all 400ms;
   height: 43px;
   padding: 20px 100px;
-  font-size: 1.1rem;
+  font-size: 1rem;
  }
 .divider {
   display: none;
@@ -115,15 +115,15 @@ a:hover{
   }
   .main-header {
     height: 52px;
-    padding: 0 2vw;
+    /* padding: 0 2vw; */
   }
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .logo {
     margin: 0;
-    padding: 0.6vh 0 0 0;
+    padding: 0.6vh 4vw 0 4vw;
   }
   .main-nav {
     display: flex;
@@ -131,13 +131,14 @@ a:hover{
     background: transparent;
   }
   .product {
-    padding: 12px 2.5vw;
+    padding: 12px 4vw;
     /* letter-spacing: .1em; */
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     font-size: 1rem;
     font-weight: 400;
     line-height: 18px;
     border: 0;
+    font-size: 0.9rem;
   }
   .divider {
     height: 16px;
@@ -152,8 +153,7 @@ a:hover{
 }
 @media (min-width: 1024px) {
   .main-header {
-    height: 49px;
-    padding: 0 12vw;
+    height: 47px;
   }
 }
 
@@ -198,17 +198,17 @@ a:hover{
 }
 .allProducts {
   text-decoration: none;
+  color: black;
+  padding: 15px;
 }
 .allProducts:hover {
   color: white;
 }
 .allProductsBtn {
+  padding: 15px;
   background-color: transparent;
   outline: none;
   border: 1.5px solid black;
-  margin-top: 20px;
-  padding: 15px;
-  color: red;
   /* font-size: 1.1rem; */
   text-transform: uppercase;
   font-size: 14px;

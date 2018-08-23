@@ -111,6 +111,9 @@ a:hover{
     align-items: center;
     padding: 0;
   }
+  .menu-item {
+    border: 0;
+  }
   .main-header {
     height: 52px;
     padding: 0 2vw;
@@ -131,8 +134,8 @@ a:hover{
   .product {
     padding: 12px 2.5vw;
     /* letter-spacing: .1em; */
-    /* text-transform: uppercase; */
-    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 18px;
     border: 0;
@@ -150,7 +153,7 @@ a:hover{
 }
 @media (min-width: 1024px) {
   .main-header {
-    height: 49px;
+    height: 47px;
     padding: 0 12vw;
   }
 }
