@@ -312,9 +312,9 @@ footer {
   border-top: 1px solid rgb(219, 219, 219);
   margin: 0 12vw 0 12vw;
   justify-content: center;
-   align-items: center;
+  align-items: center;
   display: flex;
-  height: 60px;
+  height: 9vh;
 }
 .logo-footer {
   margin: 8px;
@@ -332,4 +332,7 @@ footer {
   .contact-block {
   width: 33.3333%;
   }
+  /* .copyright-container {
+    height: 50px;
+  } */
 }

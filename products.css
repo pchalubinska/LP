@@ -249,8 +249,8 @@ footer {
   font-size: 0.9rem;
 }
 .contact-info {
-  padding: 15px 0 15px 0;
-  margin: 20px 6vw 0 6vw;
+  padding: 15px 0;
+  margin: 20px 6vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -261,17 +261,9 @@ footer {
 }
 .mail, .phone-num {
   text-decoration: none;
-  color: #828282;
+  color: #6A6A6A;
   margin-left: 5px;
-}
-.allegro-icon {
-  font-size: 1.2em;
-  color: white;
-  font-weight: 500px;
-}
-.allegro {
-  text-decoration: none;
-  color: #828282;
+  font-size: 1rem;
 }
 .copyright {
   font-size: 14px;
@@ -280,9 +272,9 @@ footer {
   border-top: 1px solid rgb(219, 219, 219);
   margin: 0 12vw 0 12vw;
   justify-content: center;
-   align-items: center;
+  align-items: center;
   display: flex;
-  height: 60px;
+  height: 9vh;
 }
 .logo-footer {
   margin: 8px;
@@ -290,6 +282,7 @@ footer {
 .bold {
   color: #484848;
   font-weight: 800px;
+  font-size: 1.2rem;
 }
 .contact-block {
   padding: 20px 15px;
