@@ -204,18 +204,34 @@ a:hover{
   color: black;
 }
 .allProducts {
+  border: 2px solid #000001;
+  color: #000001;
   text-decoration: none;
-  color: black;
-  padding: 15px;
+  padding: 14px 24px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  line-height: 16px;
+  letter-spacing: .2em;
+  font-size: 14px;
+  font-weight: normal;
+  transition: all 400ms;
 }
 .allProducts:hover {
   color: white;
+  border: 2px solid #1FE464;
+  background: #1FE464;
+  cursor: pointer;
+  
+}
+.allProductsBtn:active {
+  text-decoration: none;
 }
 .allProductsBtn {
-  padding: 15px;
+  padding: 13px;
   background-color: transparent;
   outline: none;
-  border: 1.5px solid black;
+  border: 2px solid black;
+  color: black;
   /* font-size: 1.1rem; */
   text-transform: uppercase;
   font-size: 14px;
@@ -227,9 +243,9 @@ a:hover{
   text-decoration: none;
 }
 .allProductsBtn:hover {
-  background-color: #1FE464;
+  background: #1FE464;
   cursor: pointer;
-  border: 1.5px solid #1FE464;
+  border: 2px solid #1FE464;
   color: white;
 }
 .button-wrapper {
