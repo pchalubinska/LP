@@ -280,8 +280,8 @@ footer {
   font-size: 0.9rem;
 }
 .contact-info {
-  padding: 15px 0 15px 0;
-  margin: 20px 6vw 0 6vw;
+  padding: 15px 0;
+  margin: 20px 6vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -292,8 +292,9 @@ footer {
 }
 .mail, .phone-num {
   text-decoration: none;
-  color: #828282;
+  color: #6A6A6A;
   margin-left: 5px;
+  font-size: 1rem;
 }
 .allegro-icon {
   font-size: 1.2em;
@@ -321,6 +322,7 @@ footer {
 .bold {
   color: #484848;
   font-weight: 800px;
+  font-size: 1.2rem;
 }
 .contact-block {
   padding: 20px 15px;
