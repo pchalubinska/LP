@@ -17,7 +17,7 @@ body {
   top: 0;
   width: 100vw;
   background-color: rgba(0,0,0,.8);
-  height: 52px;
+  height: 54px;
 }
 .nav__menu {
   list-style: none;
@@ -221,32 +221,9 @@ a:hover{
   border: 2px solid #1FE464;
   background: #1FE464;
   cursor: pointer;
-  
 }
-.allProductsBtn:active {
+.allProducts:active {
   text-decoration: none;
-}
-.allProductsBtn {
-  padding: 13px;
-  background-color: transparent;
-  outline: none;
-  border: 2px solid black;
-  color: black;
-  /* font-size: 1.1rem; */
-  text-transform: uppercase;
-  font-size: 14px;
-  border-radius: 4px;
-  line-height: 18px;
-  letter-spacing: .2em;
-  font-weight: normal;
-  transition: all 400ms;
-  text-decoration: none;
-}
-.allProductsBtn:hover {
-  background: #1FE464;
-  cursor: pointer;
-  border: 2px solid #1FE464;
-  color: white;
 }
 .button-wrapper {
   display: flex;
