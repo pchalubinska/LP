@@ -34,7 +34,7 @@ body {
   display: none;
 }
 .logo {
-  padding: 0.6vh 4.5vw 0 9vw;
+  padding: 0.7vh 4.5vw 0 9vw;
 }
 .logo > a {
   cursor: pointer;
@@ -124,7 +124,7 @@ a:hover{
   }
   .logo {
     margin: 0;
-    padding: 0.6vh 0 0 0;
+    padding: 0.7vh 0 0 0;
   }
   .main-nav {
     display: flex;
@@ -155,6 +155,9 @@ a:hover{
   .main-header {
     height: 47px;
     padding: 0 12vw;
+  }
+  .logo-img {
+    width: 160px;
   }
 }
 /* ----------------------BANNER--------------------------------- */
