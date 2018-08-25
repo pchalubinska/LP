@@ -164,7 +164,7 @@ a:hover{
 }
 
 .hero {
-  height: 98vh;
+  height: 90vh;
   /* background: url("./lemiesze.png") no-repeat top, linear-gradient(to bottom, #384402 0, #91B712 100%); zielony zgnily*/
   /* background: url("./lemiesze.png") no-repeat top, linear-gradient(to bottom, #003A19,#00D664 100%); zielony*/
   /* background: url("./lemiesze.png") no-repeat top, linear-gradient(to bottom, #ada996, #f2f2f2, #dbdbdb, #eaeaea); stalowy */
@@ -296,15 +296,6 @@ footer {
   margin-left: 5px;
   font-size: 1rem;
 }
-.allegro-icon {
-  font-size: 1.2em;
-  color: white;
-  font-weight: 500px;
-}
-.allegro {
-  text-decoration: none;
-  color: #828282;
-}
 .copyright {
   font-size: 14px;
 }
@@ -332,7 +323,4 @@ footer {
   .contact-block {
   width: 33.3333%;
   }
-  /* .copyright-container {
-    height: 50px;
-  } */
 }
