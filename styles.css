@@ -272,8 +272,16 @@ a:hover{
   width: 100%;
 }
 .premium-baner {
-  background-image: url('./img/premium_render5.jpg');
+  background-image: url('./img/premium_render7.jpg');
   background-size: cover;
+}
+.premium-content {
+  font-size: 2rem;
+  font-weight: normal; 
+  line-height: 45px;
+  font-family: 'raleway';
+  padding: 40px 20px;
+  text-align: center;
 }
 @media (min-width: 740PX) {
   .premium-baner, .standard-baner {
