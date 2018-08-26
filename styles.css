@@ -21,7 +21,7 @@ body {
 }
 .nav__menu {
   list-style: none;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   padding: 20vh 10vw 0 10vw;
   width: 100%;
@@ -101,6 +101,7 @@ a:hover{
   display: block;
   position: absolute;
   top: 0;
+  height: 100vh;
   width: 100%;
   background: #000;
   z-index: -1;
@@ -268,27 +269,60 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
 }
-.premium-baner, .standard-baner {
+.premium-banner, .standard-banner {
   width: 100%;
 }
-.premium-baner {
-  background-image: url('./img/premium_render7.jpg');
+.standard-banner {
+}
+.premium-banner {
+  background-image: url('./img/premium_render9.jpg');
   background-size: cover;
 }
-.premium-content {
+.copy-header {
   font-size: 2rem;
   font-weight: normal; 
   line-height: 45px;
   font-family: 'raleway';
-  padding: 40px 20px;
+  padding-top: 30px;
   text-align: center;
+  margin: 0;
 }
-@media (min-width: 740PX) {
-  .premium-baner, .standard-baner {
+.subheader {
+  font-size: 1.2rem;
+  font-family: 'raleway';
+  font-weight: lighter; 
+  text-align: center;
+  line-height: 30px;
+  padding: 10px 30px;
+  margin: 0;
+  /* line-height: 45px; */
+}
+.see-more {
+  color: #1F67DB;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.see-more:hover {
+  /* border-bottom: 2px solid #1FE464; */
+  cursor: pointer;
+}
+@media (min-width: 740px) {
+  .premium-banner, .standard-banner {
     width: 50%;
+  }
+  .premium-banner {
+    background-size: contain;
   }
   .offer-banners {
     padding: 15px;
+  }
+  .subheader {
+    font-size: 1.3rem;
+  }
+  .copy-header {
+    font-size: 2.3rem;
+    padding-top: 55px;
   }
 }
   
