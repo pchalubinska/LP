@@ -308,12 +308,12 @@ a:hover{
   cursor: pointer;
 }
 @media (min-width: 740px) {
+  .premium-banner {
+    background-size: cover;
+  }
   .premium-banner, .standard-banner {
     width: 50%;
-    height: 100%;
-  }
-  .premium-banner {
-    background-size: contain;
+    height: 50vh;
   }
   .offer-banners {
     padding: 15px;
@@ -326,9 +326,13 @@ a:hover{
     padding-top: 55px;
   }
 }
-@media (min-width: 740px) {
+@media (min-width: 1100px) {
   .offer-banners {
     height: 96vh;
+  }
+  .premium-banner, .standard-banner {
+    width: 50%;
+    height: 100%;
   }
 }
   
