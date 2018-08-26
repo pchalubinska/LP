@@ -259,9 +259,31 @@ a:hover{
   margin-right: 2vh;
 }
 .black_products {
-  background-size: cover;
+  background-size: contain;
   background-image: url('./img/white_ploza.png');
 }
+/* --------------------------------------------OFFER BANNERS------------------------------------- */
+.offer-banners {
+  height: 96vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.premium-baner, .standard-baner {
+  width: 100%;
+}
+.premium-baner {
+  background-image: url('./img/premium_render5.jpg');
+  background-size: cover;
+}
+@media (min-width: 740PX) {
+  .premium-baner, .standard-baner {
+    width: 50%;
+  }
+  .offer-banners {
+    padding: 15px;
+  }
+}
+  
 /* -----------------------WHY-US SECTION-------------------------------- */
 .why-us {
   color: black;
