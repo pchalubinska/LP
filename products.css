@@ -172,11 +172,11 @@ a:hover{
 .offer-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 80px 15px 35px 15px;
+  margin: 10px;
 }
 .product-wrapper {
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   /* background: #F8F8F8; */
   /* background: #FAFAFA; */
 }
@@ -189,9 +189,9 @@ a:hover{
   border-radius: 4px;
 }
 .premium-section {
-  height: 95vh;
+  height: 40vh;
   color: white;
-  background-color: #2B2A2A;
+  background-color: #111111;
   font-size: 2.7rem;
   display: flex;
   justify-content: center;
@@ -200,10 +200,10 @@ a:hover{
 }
 .offer-header {
   width: 100%;
-  color: #3f3f3f;
-  font-weight: 400px;
+  color: #666666;
   font-size: 2rem;
   text-align: center;
+  margin: 10vh 20px 5vh 20px;
 }
 .product-title {
   font-family: 'Montserrat', sans-serif;
@@ -234,7 +234,7 @@ a:hover{
 }
 @media(min-width: 1024px) {
   .product-wrapper {
-    padding: 40px 8px 40px 8px;
+    padding: 0 8px 80px 8px;
     width: 25%;
   }
   .product-title {
@@ -260,11 +260,11 @@ footer {
   border-bottom: 1px solid rgb(219, 219, 219);
   margin: 35px 0 35px 0;
 }
-.mail, .phone-num {
+.contact-info__item {
   text-decoration: none;
-  color: #6A6A6A;
+  color: #3c3b3b;
   margin-left: 5px;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 .copyright {
   font-size: 14px;

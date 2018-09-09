@@ -184,7 +184,7 @@ a:hover{
   /* background: #333; */
   background-size: cover;
   background: url("./img/bg_al2.png") no-repeat;
-  background-position: 20% -140px;
+  background-position: 21% 35%;
 }
         
   /* background-repeat: no-repeat; */
@@ -205,8 +205,8 @@ a:hover{
   color: black;
 }
 .allProducts {
-  border: 2px solid #000001;
-  color: #000001;
+  border: 2px solid black;
+  color: black;
   text-decoration: none;
   padding: 14px 24px;
   border-radius: 4px;
@@ -263,6 +263,12 @@ a:hover{
   background-size: contain;
   background-image: url('./img/white_ploza.png');
 }
+@media (min-width: 1100px) {
+  .hero {
+    background-position: -10% 30%;
+  }
+}
+
 /* --------------------------------------------OFFER BANNERS------------------------------------- */
 .offer-banners {
   display: flex;
@@ -270,9 +276,10 @@ a:hover{
 }
 .premium-banner, .standard-banner {
   width: 100%;
-  height: 77vh;
+  height: 86vh;
 }
 .standard-banner {
+  background: #f1f1f1;
 }
 .premium-banner {
   background-image: url('./img/premium_render9.jpg');
@@ -280,10 +287,10 @@ a:hover{
 }
 .copy-header {
   font-size: 2rem;
-  font-weight: normal; 
+  font-weight: bold; 
   line-height: 35px;
   font-family: 'raleway';
-  padding-top: 30px;
+  padding-top: 60px;
   text-align: center;
   margin: 0;
 }
@@ -293,19 +300,24 @@ a:hover{
   font-weight: lighter; 
   text-align: center;
   line-height: 30px;
-  padding: 7px 50px;
+  padding: 7px 50px 0 50px;
   margin: 0;
   /* line-height: 45px; */
 }
 .see-more {
-  color: #1F67DB;
+  color: #15DF89;
+  /* color: #79B4FD; */
   display: flex;
   justify-content: center;
   text-decoration: none;
+  padding: 13px;
 }
 .see-more:hover {
   /* border-bottom: 2px solid #1FE464; */
   cursor: pointer;
+  color: #7AB6FF;
+  /* color: #1CFF9D; */
+  transition: all 400ms;
 }
 @media (min-width: 740px) {
   .premium-banner {
@@ -314,9 +326,11 @@ a:hover{
   .premium-banner, .standard-banner {
     width: 50%;
     height: 50vh;
+    padding: 0 7px;
+    box-sizing: border-box;
   }
   .offer-banners {
-    padding: 15px;
+    margin: 15px;
   }
   .subheader {
     font-size: 1.3rem;
@@ -328,7 +342,7 @@ a:hover{
 }
 @media (min-width: 1100px) {
   .offer-banners {
-    height: 96vh;
+    height: 91vh;
   }
   .premium-banner, .standard-banner {
     width: 50%;
@@ -340,10 +354,31 @@ a:hover{
 .why-us {
   color: black;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin: 2vw 1vw;
+  font-family: 'Raleway';
+  text-align: center;
 }
 .why-us__item {
-  /* border: 1px solid darkgrey; */
+  width: 100%;
+  margin: 0;
+  line-height: 25px;
+  font-size: 0.95rem;
+  padding: 0 60px;
+}
+.why-us__header {
+  color: darkgrey;
+  font-size: 1.2rem;
+  font-weight: 400px;
+  font-family: 'Open Sans';
+}
+@media (min-width: 744px) {
+  .why-us__item {
+    box-sizing: border-box;
+    width: 33.33%;
+    margin: 10px;
+  }
 }
 /* -----------------------------------FOOTER---------------------------------------- */
 footer {
@@ -364,11 +399,11 @@ footer {
   border-bottom: 1px solid rgb(219, 219, 219);
   margin: 35px 0 35px 0;
 }
-.mail, .phone-num {
+.contact-info__item {
   text-decoration: none;
-  color: #6A6A6A;
+  color: #3c3b3b;
   margin-left: 5px;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 .copyright {
   font-size: 14px;
